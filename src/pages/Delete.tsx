@@ -68,9 +68,6 @@ export function Delete() {
                                 </td>
                                 <td className="custom-table-td">{customer.phone}</td>
                             </tr>
-                            // <div key={customer.email}>
-                            //   {customer.name + " " + customer.email + " " + customer.phone}
-                            // </div>
                         ))}
                         </tbody>
                     </table>
@@ -107,9 +104,6 @@ export function Delete() {
                                 <td className="custom-table-td">{item.price}</td>
                                 <td className="custom-table-td">{item.quantity}</td>
                             </tr>
-                            // <div key={customer.email}>
-                            //   {customer.name + " " + customer.email + " " + customer.phone}
-                            // </div>
                         ))}
                         </tbody>
                     </table>
@@ -118,21 +112,3 @@ export function Delete() {
         </div>
     );
 }
-
-// function handleDelete() {
-//     setCustomers((customers) => customers.filter((customer) => customer.email !== email));
-// }
-
-// <div className="flex space-x-10">
-//     {/*Delete Customer*/}
-//
-//     {/*<br/>*/}
-//
-//     {/*<input type={"text"} placeholder={"Name"} onChange={(e) => setName(e.target.value)}/>*/}
-//     <input type={"text"} placeholder={"Email"} onChange={(e) => setEmail(e.target.value)} className="text-filed"/>
-//     {/*<input type={"text"} placeholder={"Contact"} onChange={(e) => setPhone(e.target.value)}/>*/}
-//
-//     <br/>
-//
-//     <button onClick={handleDelete} className="button-field">Delete Customer</button>
-// </div>

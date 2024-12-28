@@ -63,20 +63,3 @@ export function Dashboard() {
         </div>
     )
 }
-
-// const [customers, setCustomers] = useContext(CustomerContext);
-// return (
-//     <div className="flex flex-col items-center justify-center">
-//         <h1 className="text-gray-400 font-normal mb-10">Customer List</h1>
-//         {customers.map((customer) => (
-//             <div className="bg-white shadow-md rounded-lg flex flex-col space-y-2 w-[500px] p-5 mb-5">
-//                 <h1 className="text-lg">{customer.name}</h1>
-//                 <div className="flex text-base justify-between">
-//                     <p className="text-red-700">{customer.email}</p>
-//                     <p>{customer.phone}</p>
-//                 </div>
-//             </div>
-//             // <div className="text-base">{customer.name + ' ' + ' ' + customer.email + ' ' + customer.phone}</div>
-//         ))}
-//     </div>
-// );

@@ -68,9 +68,6 @@ export function Update() {
                                 </td>
                                 <td className="custom-table-td">{customer.phone}</td>
                             </tr>
-                            // <div key={customer.email}>
-                            //   {customer.name + " " + customer.email + " " + customer.phone}
-                            // </div>
                         ))}
                         </tbody>
                     </table>
@@ -107,9 +104,6 @@ export function Update() {
                                 <td className="custom-table-td">{item.price}</td>
                                 <td className="custom-table-td">{item.quantity}</td>
                             </tr>
-                            // <div key={customer.email}>
-                            //   {customer.name + " " + customer.email + " " + customer.phone}
-                            // </div>
                         ))}
                         </tbody>
                     </table>
@@ -118,36 +112,3 @@ export function Update() {
         </div>
     );
 }
-
-// function handleUpdate() {
-//     setCustomers(
-//         customers.map((customer) =>
-//             customer.email === email
-//                 ? {
-//                     ...customer,
-//                     name: name,
-//                     email: email,
-//                     phone: phone,
-//                 }
-//                 : customer
-//         )
-//     );
-// }
-
-// <div className="flex flex-col">
-//     {/*Update Customer*/}
-//
-//     {/*<br/>*/}
-//     <div className="flex space-x-10">
-//         <input type={"text"} placeholder={"Name"} onChange={(e) => setName(e.target.value)}
-//                className="text-filed"/>
-//         <input type={"text"} placeholder={"Email"} onChange={(e) => setEmail(e.target.value)}
-//                className="text-filed"/>
-//         <input type={"text"} placeholder={"Phone"} onChange={(e) => setPhone(e.target.value)}
-//                className="text-filed"/>
-//     </div>
-//
-//     <div className="flex items-center justify-center mt-20">
-//         <button onClick={handleUpdate} className="button-field">Update Customer</button>
-//     </div>
-// </div>

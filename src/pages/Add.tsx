@@ -67,9 +67,6 @@ export function Add() {
                                 </td>
                                 <td className="custom-table-td">{customer.phone}</td>
                             </tr>
-                            // <div key={customer.email}>
-                            //   {customer.name + " " + customer.email + " " + customer.phone}
-                            // </div>
                         ))}
                         </tbody>
                     </table>
@@ -106,9 +103,6 @@ export function Add() {
                                 <td className="custom-table-td">{item.price}</td>
                                 <td className="custom-table-td">{item.quantity}</td>
                             </tr>
-                            // <div key={customer.email}>
-                            //   {customer.name + " " + customer.email + " " + customer.phone}
-                            // </div>
                         ))}
                         </tbody>
                     </table>
@@ -117,17 +111,3 @@ export function Add() {
         </div>
     );
 }
-
-// <div className="flex flex-col">
-//     {/*Add Customer*/}
-//
-//     {/*<br/>*/}
-//     <div className="flex space-x-10">
-//         <input type={"text"} placeholder={"Name"} onChange={(e) => setName(e.target.value)} className="text-filed"/>
-//         <input type={"text"} placeholder={"Email"} onChange={(e) => setEmail(e.target.value)} className="text-filed"/>
-//         <input type={"text"} placeholder={"Phone"} onChange={(e) => setPhone(e.target.value)} className="text-filed"/>
-//     </div>
-//     <div className="flex items-center justify-center mt-20">
-//         <button onClick={handleSubmit} className="button-field">Add Customer</button>
-//     </div>
-// </div>
